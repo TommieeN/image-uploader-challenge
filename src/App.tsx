@@ -1,11 +1,12 @@
 import Footer from "./components/Footer";
+import Uploader from "./components/Uploader";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <main className="flex flex-col items-center">
+      <Uploader />
       <Footer />
-    </>
+    </main>
   );
 }
 
